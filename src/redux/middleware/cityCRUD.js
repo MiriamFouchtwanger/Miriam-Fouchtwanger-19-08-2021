@@ -1,5 +1,5 @@
 import actions from "../actions";
-const apiKey="?apikey=CTJGxnrzpQxrMCHp1tvUNSAXE3YMCArb";
+const apiKey="?apikey=E5ueo4cVsRsAeAQUGzMbyimcJOkLYJya";
 
 export const getMatchCities =
   ({ dispatch, getState }) =>
