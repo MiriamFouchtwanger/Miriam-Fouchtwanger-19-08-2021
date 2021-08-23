@@ -19,7 +19,7 @@ export const getMatchCities =
         })
         })
         .then(res=>dispatch(actions.setMatchCities(res)))
-        .catch((err) => console.log(err));
+        .catch((err) => alert("There is a problem calling the server, Please try again later."));
     }
     return next(action);
   };
