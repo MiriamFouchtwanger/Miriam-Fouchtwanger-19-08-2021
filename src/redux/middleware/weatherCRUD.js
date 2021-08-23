@@ -40,7 +40,7 @@ export const getCityWeatherFor5Days=({dispatch,getState})=>next=>action=>{
             return arr   
         })
         .then(arr=>dispatch(actions.setFiveDaysWeather(arr)))
-        .catch(err=>console.log(err))
+        .catch(err=>alert("There is a problem calling the server, Please try again later."))
     }
     return next(action)
 }
