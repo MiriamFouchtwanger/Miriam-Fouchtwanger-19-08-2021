@@ -1,5 +1,5 @@
 import actions from '../actions'
-const apiKey="?apikey=CTJGxnrzpQxrMCHp1tvUNSAXE3YMCArb"
+const apiKey="?apikey=E5ueo4cVsRsAeAQUGzMbyimcJOkLYJya"
 const baseUrl="https://dataservice.accuweather.com/forecasts/v1/daily"
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
