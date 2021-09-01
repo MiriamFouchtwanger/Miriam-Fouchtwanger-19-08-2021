@@ -20,11 +20,14 @@ export const Home = () => {
     {/* Search a city */}
     <Search/>
     {/* button- add selected city to favorites cities */}
-    <button type="button" className="btn-circle offset-1" onClick={addToTheFavorites}>
-      <svg xmlns="http://www.w3.org/2000/svg" color="white" width="35" height="35" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-      </svg>
-    </button>
+    <div className="row">
+      <button type="button" className="btn-circle offset-1" onClick={addToTheFavorites}>
+        <svg xmlns="http://www.w3.org/2000/svg" color="white" width="35" height="35" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+        </svg>
+      </button>
+      <p>Add to favourites</p>
+    </div>
     <div className="row">
     {/* Weather details of the selected city */}
     <WeatherDetails/> 
