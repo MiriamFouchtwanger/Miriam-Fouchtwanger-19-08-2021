@@ -7,7 +7,7 @@ export const getMatchCities =
   (action) => {
     if (action.type === "GET_MATCH_CITIES") {
       fetch(
-        `http://dataservice.accuweather.com/locations/v1/cities/autocomplete${apiKey}&q=${action.payload}`,
+        `https://dataservice.accuweather.com/locations/v1/cities/autocomplete${apiKey}&q=${action.payload}`,
         {
           method: "GET",
         }
